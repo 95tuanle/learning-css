@@ -1,0 +1,62 @@
+/*
+color palette
+
+Jet black #140005
+Ebony     #464033
+Gray      #7E7C73
+Pewter    #BBC4C2
+*/
+
+/*Global styles*/
+body {
+  background: #BBC4C2;
+  color: #140005;
+}
+
+/*Links*/
+a {
+  color: #464033;
+}
+
+a:hover {
+  color: #7E7C73;
+  text-decoration: none;
+}
+
+footer a {
+  color: #7E7C73;
+}
+
+footer a:hover {
+  color: #464033;
+}
+
+.btn {
+  background: #464033;
+  color: #BBC4C2;
+  text-decoration: none;
+}
+
+/*Home*/
+.home {
+  background: url("../images/black-bird.png") no-repeat;
+  background-size: cover;
+}
+
+.home .content-wrapper {
+  background: #BBC4C2E6;
+}
+
+/*Resume*/
+
+/*Profile*/
+
+/*Projects*/
+
+/*Work experience*/
+
+/*Footer*/
+footer {
+  background: #140005;
+  color: #7E7C73;
+}
