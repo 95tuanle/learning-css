@@ -8,6 +8,14 @@ Pewter    #BBC4C2
 */
 
 /*Global styles*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   background: #BBC4C2;
   color: #140005;
@@ -60,3 +68,18 @@ footer {
   background: #140005;
   color: #7E7C73;
 }
+
+.socials {
+  list-style-type: none;
+  padding: 0;
+}
+
+.socials li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.socials img {
+  width: 32px;
+}
+
