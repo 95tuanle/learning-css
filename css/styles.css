@@ -74,7 +74,27 @@ footer a:hover {
   height: 375px
 }
 
+.resume-section {
+  margin-bottom: 50px;
+}
+
+.resume-section h2 {
+  border-bottom: 2px dashed #7E7C73;
+}
+
 /*Profile*/
+.project-item {
+  display: flow-root;
+  margin: 30px 0;
+}
+
+.project-item img {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 30px;
+  object-fit: contain;
+}
 
 /*Projects*/
 
