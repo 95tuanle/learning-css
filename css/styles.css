@@ -68,7 +68,7 @@ footer a:hover {
   flex: 1 0 auto;
 }
 
-.content-bg{
+.content-bg {
   background: #BBC4C2E6;
   padding: 30px;
 }
@@ -112,6 +112,11 @@ footer a:hover {
 /*Projects*/
 
 /*Work experience*/
+.work-item {
+  display: grid;
+  grid-template-columns: 300px 2fr;
+  column-gap: 20px;
+}
 
 /*Footer*/
 footer {
